@@ -31,7 +31,7 @@ jobs:
       - name: Install ruby
         run: sudo apt-get install ruby-full
       - name: Install bundler
-        run: gem install bundler:1.16.6
+        run: sudo gem install bundler:1.16.6
       - name: Bundle install
         run: bundle install --path vendor
       - name: Build with Jekyll
